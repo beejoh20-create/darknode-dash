@@ -1,0 +1,24 @@
+3.5.10
+C2 Panel payload
+Carousel OFF: origin 429 does not rotate or detach — assigned hop stays; Carousel ON still rotates the queue
+INSTALL ONLY CP: attach the panel to an already-installed Evilginx of any fork; do not clone or replace the engine
+Panel .env: EVILGINX_BIN / PHISHLETS_DIR / EVILGINX_ARGS so Pro and custom binaries start correctly
+AI-Assistant: OpenRouter Autofix + chat (key stored only on the server, never in git)
+Searchable model dropdown, mobile compact layout
+Dashboard Session Map: unique session IPs on a dark world map (OpenFreeMap)
+IP markers: mint = tokens, purple = JWT, red = empty; solid = one session, ring = several from the same IP
+Filters ALL / WITH JWT / WITH TOKENS / EMPTY plus phishlet dropdown (default All)
+Live search by session ID or IP; country dropdown fits the full country
+Click a marker to fly country → district → street → max zoom; live search flies to max zoom
+Popup: IP, country, region, city, street, phishlet, session IDs, JWT/tokens/empty
++ / − step those zoom levels; globe and search X restore the default world view
+Geo is local DB-IP City Lite MMDB + ip_cache.json — no live geo HTTP API
+Custom proxies: bulk paste ip:port@login:pass, protocol HTTP / HTTPS / SOCKS5 / SOCKS5H; same assign / carousel / cards as Linode
+Includes: Linode proxy fleet, notification centre, 429 rotation, neon lynx icon + favicon, File Explorer, Services, session delete, CLEAR DATABASE, Telegram, charts, JWT-in-cookies, mobile card tables, sidebar toggle
+Installer patches evilginx2 http_proxy.go so origin HTTP 429 is reported to the panel for proxy auto-rotate
+Proxy Carousel: 429 rotates the hop to the end of the queue without detaching; live charts/IPs/card traffic from RAM
+Linode Disconnect actually clears the API key and returns to the connect form
+Proxy deploy waits for full guest boot (cloud-init + apt idle + 5s settle) before squid install; progress bar covers create/boot/install; panel-wide white hint text
+Outbound-per-proxy chart labels use public IP, not Linode instance name
+Detach closes live Squid CONNECT tunnels so traffic returns to the Evilginx IP immediately
+Services Show/Modify lightbox and autostart toggle icons

